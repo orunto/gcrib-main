@@ -1,0 +1,133 @@
+/* Top */
+.Top {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 210px;
+    height: 70px;
+    border: 1px solid #232323;
+    border-radius: 20px 0px;
+    color: #232323;
+  }
+  
+  .Top h1 {
+    margin: 10px 0 5px 10px;
+  }
+  
+  .Top span {
+    margin: 5px 0 5px 10px;
+    font-size: 14px;
+  }
+  
+  .Top span img{
+    transform: rotate(180deg);
+  }
+  
+  
+  /* Profile Pic */
+  .ProfilePic {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url('../images/pexels-creation-hill-1681010.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Calendar Button */ 
+  .CalendarButton {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 30px;
+    top: 130px;
+    border: 1px solid #232323;
+    border-radius: 20px 0px;
+  }
+  
+  .CalendarButton img {
+    margin: 15px 0 0 25px;
+  }
+  
+  .CalendarButton h2 {
+    display: inline-block;
+    margin: 15px 0 0 25px;
+    color: #232323;
+  }
+  
+  
+  /* Reads Button */
+  .ReadsButton {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 30px;
+    top: 210px;
+  
+    background: #E28F1D;
+    border-radius: 20px 0px;
+  
+    box-shadow: 4px 4px 4px rgba(226, 143, 29, 0.25);
+  }
+  
+  .ReadsButton img {
+    display: inline-block;
+    margin: 13px 0 0 15px;
+    height: 14px;
+  }
+  
+  .ReadsButton h2 {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    color: #fff;
+  }
+  
+  /* Videos Button */
+  .VideosButton {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    right: 30px;
+    top: 210px;
+  
+    background: #fff;
+    border-radius: 20px 0px;
+  }
+  
+  .VideosButton img {
+    display: inline-block;
+    margin: 13px 0 0 15px;
+    height: 14px;
+  }
+  
+  .VideosButton h2 {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    color: #232323;
+  }
+
+/* Home Reads */
+.HomeReads {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 290px);
+    background: red;
+    overflow: scroll;
+}
+
+/* Home Videos */
+.HomeVideos {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 290px);
+    background: blue;
+    overflow: scroll;
+}
