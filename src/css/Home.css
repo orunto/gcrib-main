@@ -41,7 +41,7 @@
   /* Calendar Button */ 
   .CalendarButton {
     position: absolute;
-    width: 300px;
+    width: calc(100% - 60px);
     height: 50px;
     left: 30px;
     top: 130px;

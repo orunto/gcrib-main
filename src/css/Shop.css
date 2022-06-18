@@ -1,0 +1,91 @@
+/* Search Item */
+.SearchItem {
+  width: 80px;
+  height: 80px;
+  
+  background: url('../images/2ccc6b5eaf99a262ef0c5ae79b2c5014f08c6580.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px 30px 0 0;
+  
+  display: inline-block;
+  border-radius: 10px
+}
+
+h2 {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Shop Search */ 
+.ShopSearch {
+  position: absolute;
+  width: calc(100% - 60px);
+  height: 50px;
+  left: 30px;
+  top: 20px;
+  background-color: #D9D9D9;
+  border-radius: 20px 0px;
+}
+
+.ShopSearch img {
+  margin: 15px 0 0 25px;
+  height: 12px;
+  width: 12px;
+}
+
+.ShopSearch input {
+  display: inline-block;
+  margin: 15px 0 0 25px;
+  color: #232323;
+  font-family: inherit;
+  background: none;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+/* Recommended */
+.Recommended {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  width: calc(100% - 60px);
+  height: 115px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* Summer */
+.Summer {
+  position: absolute;
+  top: 225px;
+  left: 30px;
+  width: calc(100% - 60px);
+  height: 115px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* Parties */
+.Parties {
+  position: absolute;
+  top: 360px;
+  left: 30px;
+  width: calc(100% - 60px);
+  height: 115px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* Creators */
+.Creators {
+  position: absolute;
+  top: 495px;
+  left: 0;
+  width: 100%;
+  height: 135px;
+  background: red;
+}
