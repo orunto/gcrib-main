@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ShopSearch } from '../components';
+import { ShopSearch, LocationWidget } from '../components';
 import { Recommended, Summer, Parties, Creators } from '../containers';
 
 const Shop = () => {
@@ -11,6 +11,7 @@ const Shop = () => {
       <Summer />
       <Parties />
       <Creators />
+      <LocationWidget />
     </section>
   );
 }

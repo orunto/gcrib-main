@@ -117,8 +117,39 @@
     left: 30px;
     width: calc(100vw - 60px);
     height: calc(100vh - 290px);
-    background: red;
     overflow: scroll;
+}
+
+.ReadsItem1 {
+  margin: 0 0 40px 0;
+  width: calc(100% - 20px);
+  height: 90px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pexels-josiah-hamadi-10563764.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 0px;
+  padding: 10px 0 0 20px;
+}
+
+.ReadsItem2 {
+  margin: 0 0 40px 0;
+  width: calc(100% - 20px);
+  height: 90px;
+  padding: 10px 0 0 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/kristian-egelund-wmdcUQ0CJ4c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 20px;
+}
+
+.ReadsItem1 h2 {
+  color: #fff;
+  position: unset;
+}
+
+.ReadsItem2 h2 {
+  color: #fff;
+  position: unset;
 }
 
 /* Home Videos */

@@ -13,6 +13,26 @@
   border-radius: 10px
 }
 
+/* Creator Button */
+.CreatorButton {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 20px;
+
+  background: #E28F1D;
+  box-shadow: 4px 4px 4px rgba(226, 143, 29, 0.25);
+  border-radius: 20px 0px;
+
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.CreatorButton h2 {
+  position: unset;
+}
+
 h2 {
   position: sticky;
   top: 0;
@@ -84,8 +104,9 @@ h2 {
 .Creators {
   position: absolute;
   top: 495px;
-  left: 0;
-  width: 100%;
+  left: 30px;
+  width: calc(100% - 60px);
   height: 135px;
-  background: red;
+  overflow: hidden;
+  white-space: nowrap;
 }
