@@ -25,3 +25,12 @@
   height: 20px;
   /* margin: auto; */
 }
+
+h3 {
+  position: fixed;
+  top: 200px;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
